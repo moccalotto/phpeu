@@ -79,7 +79,7 @@ class CountryInfo
     {
         $alpha2 = $this->normalizeCountryCode($alpha2);
 
-        if (! $this->isEuCountry($alpha2)) {
+        if (! $this->isEuMember($alpha2)) {
             return;
         }
 
