@@ -5,7 +5,15 @@ Tiny lib for checking if a country is an EU member, and get the "normal" vat rat
 ## Installation
 
 To add this package as a local, per-project dependency to your project, simply add a dependency on
- `moccalotto/crypto` to your project's `composer.json` file like so:
+ `moccalotto/eu` to your project's `composer.json` file like so:
+
+```json
+{
+    "require": {
+        "moccalotto/eu": "~0.2"
+    }
+}
+```
 
 Run this command in the shell: `composer require moccalotto/eu`
 
