@@ -21,7 +21,7 @@ require 'vendor/autoload.php';
 
 $info = new CountryInfo();
 
-var_dump($info->isEuCountry('DK'); // true
+var_dump($info->isEuMember('DK')); // bool(true)
 
-var_dump($info->vatRate('DK'); // 25
+var_dump($info->vatRate('DK'));    // int(25)
 ```
