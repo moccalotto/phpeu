@@ -1,0 +1,25 @@
+{
+    "name": "moccalotto/eu",
+    "type": "library",
+    "description": "Tiny lib for info about EU countries",
+    "keywords": ["EU", "VAT", "European Union", "Europe"],
+    "require": {
+        "php": ">=5.6.0"
+    },
+    "minimum-stability": "dev",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kim Ravn Hansen",
+            "email": "moccalotto@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Moccalotto\\Eu\\": "src"
+        }
+    },
+    "archive": {
+        "exclude": ["demo.php"]
+    }
+}
