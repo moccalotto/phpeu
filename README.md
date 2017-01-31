@@ -10,7 +10,7 @@ To add this package as a local, per-project dependency to your project, simply a
 ```json
 {
     "require": {
-        "moccalotto/eu": "~0.2"
+        "moccalotto/eu": "~0.3"
     }
 }
 ```
