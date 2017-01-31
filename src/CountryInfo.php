@@ -22,7 +22,7 @@ class CountryInfo
         'FI' => 24,
         'FR' => 20,
         'GB' => 20,
-        'GR' => 23,
+        'GR' => 24,
         'HR' => 25,
         'HU' => 27,
         'IE' => 23,
