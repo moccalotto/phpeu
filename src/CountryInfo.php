@@ -6,7 +6,6 @@ class CountryInfo
 {
     protected $aliases = [
         'EL' => 'GR',
-        'UK' => 'GB',
     ];
 
     protected $euCountries = [
@@ -21,7 +20,6 @@ class CountryInfo
         'ES' => 21,
         'FI' => 24,
         'FR' => 20,
-        'GB' => 20,
         'GR' => 24,
         'HR' => 25,
         'HU' => 27,
